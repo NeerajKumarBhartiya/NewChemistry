@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href=https://imgs.search.brave.com/l6CYfIPz68evEKtTBVwYZJ43do3KQrBnYKLBjI8iDig/rs:fit:391:382:1/g:ce/aHR0cHM6Ly93d3cu/dHVjc29uYXouZ292/L2ZpbGVzL3dhdGVy/L2ltZy9SRUJBVEVf/SUNPTl9SYWlud2F0/ZXJIYXJ2ZXN0LnBu/Zw>
+    <title>Data</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-color: #000839;
+  --primary-shades: #00020b;
+  --para-color: #80849c;
+  --helper-color: #1264fa;
+  --white: #fff;
+  --bg-color: #e6e6eb;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--primary-color);
+}
+
+.para {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--para-color);
+}
+
+.header {
+  height: 9.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5.4rem;
+  position: relative;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  font-size: 1.5rem;
+}
+
+.navbar-list .navbar-btn {
+  padding: 1.2rem 2.4rem;
+  background-color: var(--white);
+  border: 1px solid var(--helper-color);
+  color: var(--helper-color);
+  border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-list .navbar-link:hover,
+.navbar-list .navbar-link:active {
+  color: var(--helper-color);
+}
+
+.navbar-btn:hover,
+.navbar-btn:active {
+  background-color: var(--helper-color);
+  color: var(--white);
+}
+
+.navbar-link {
+  text-transform: uppercase;
+}
+
+.mobile-nav-icon {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+.mobile-navbar-btn {
+  display: none;
+}
+
+.mobile-nav-icon[name="close"] {
+  display: none;
+}
+main{
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 2em;
+}
+.hero-image {
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.hero-image img {
+  height: 90%;
+  width: 50em;
+  box-shadow: 0 0 20rem 0 rgba(0, 0, 0, 0.1);
+}
+.primary-heading {
+  font-size: 6rem;
+  font-weight: 700;
+}
+.secondary-heading{
+    font-size:2rem;
+    font-weight:700;
+}
+
+    </style>
+  </head>
+  <body>
+    <header class="header">
+    <a href="credits.html"  class="logo">Water - Water is the most precious gift of nature</a>
+    <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="neeraj.html" class="navbar-link"> Home </a></li>
+          <li><a href="About_rwh.html" class="navbar-link"> About </a></li>
+          <li><a href="techniques.html" class="navbar-link"> Techniques </a></li>
+          <li><a href="data.html" class="navbar-link"> Data </a></li>
+          <li><a href="benefits.html" class="btn navbar-btn"> Benefits </a></li>
+          <li><a href="Connect.html" class="btn navbar-btn"> Join Us </a></li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close" class="mobile-nav-icon"></ion-icon>
+      </div>
+      </header>
+      <main>
+        <section class="section section-hero">
+            <div class="container grid grid-two-column">
+              <div class="hero-data">
+                <h1 class="primary-heading"><br>How do you calculate rainwater storage capacity?</h1><br>
+                <p class="para">For calculation we take the following formula: mean annual rainfall in mm x area in m² x runoff factor = collected rainwater in litres.
+                   In our example this means: 450 x 120 x 0.9 = 48 600 litres.<br><br>
+                      <div class="hero-image">
+                          <img
+                          src="calculation.jpeg"
+                          class="image"
+                        />
+                        </div>
+                  <p class="para">Along coastal areas of Australia and even kilometres inland, it isn’t uncommon for an area to receive 500mm of rain in
+                     a year. 
+                     An average suburban roof of 200m2 with such a rain fall can potentially harvest 100,000L of rainwater (200m2 * 500mm = 100,000L).
+
+                    Keep in mind most rain falls over 2-3 months of a year. It isn’t uncommon for an area to collect up to 350mm+ of rain in just one month,
+                     even in rural areas. When it is dry it can be dry, but when it rains, it often pours down buckets of waters.
+                    
+                    If you live out on a rural property or farm, then you will likely have multiple sheds. Smaller sheds for machinery or feed mills are 
+                    often around 300m2, and it isn’t uncommon for larger sheds that are used for cattle, dairy, hay and grain to be around 1,000m2. With 
+                    quite a conservative 200mm rainfall, a 1000m2 shed would provide you with 200,000 litres of high quality rainwater.
+                    
+                    Rainwater tanks can clearly provide an invaluable amount of water. There are two common reasons people choose to install rainwater tanks. The first is out of necessity, if for example you are located on a rural property that isn’t served by mains water. The second is to have an alternative source of water, perhaps meet building requirements, help preserve waterways or simply be more self-sufficient. Whatever your reason is, National Poly Industries can provide you with some of the highest quality poly tanks to be found in Australia at a very competitive price.<br><br>
+
+                    </p>
+                  </p>
+                  <h1 class="primary-heading"><br>How Management of Water Resources Solves Water Shortage?</h1>
+                  <br>
+                    <div class="hero-image">
+                      <img
+                      src="Rainwater harvesting graphic.png"
+                      class="image"
+                    />
+                    </div><br>
+                    <p class="para">
+                      Rainwater Harvesting
+                      Rainwater harvesting involves catching and storing rainwater before it reaches the ground. Figure 13.3.c
+                       shows a complex rainwater harvesting system (rain water capture system) proposed for federal buildings, but smaller, simpler systems
+                        (sometimes called rain barrels) can be used by individual homeowners
+                        The components of a rainwater harvesting system include (1) the collection system consisting of the roof surface and gutters that
+                         capture rain water and send it to (2) the inlet filter, a screen that catches large debris. (3) The first flush diverter removes
+                          debris not captured by the inlet filter from the initial stream of rainwater. (4) The storage tank is composed of food-grade
+                           polyester resin material approved by the U.S. Food and Drug Administration (FDA), which is green in color and helps to reduce 
+                           bacterial growth. (5) The overflow is a drainage spout that releases excess water if the storage tank is full. The (6) control 
+                           system monitors the water level and filtration system, and the (7) treatment system is responsible for filtration and 
+                           disinfection, treating water until it is potable (safe to drink). The (8) pump moves water through the system to where it 
+                           will be used, and the (9) backflow preventer ensures that water cannot flow backwards through the system in cases of low water
+                            pressure (when the storage tank is low). (10) The flow meter (with data logger) measure water production. The (11) power supply may rely on conventional energy sources or solar energy, and the (12) water level indicator monitors the water level in the storage tank.
+                    <br><br>
+                    </p>
+            </div><br><br>
+            </div>
+          </main>
+  </body>
+  </html>
